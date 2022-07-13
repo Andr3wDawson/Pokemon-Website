@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/99f30206e0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokemon APP</title>
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class = "div__head">
+                <img  src="css/images/pokeball2.png" alt="" class="logo">
+                <h1>POKEMON</h1>
+            </div>
+
+
+
+            <audio
+        type="audio/mpeg"
+        id="pokemon__theme" 
+        controls src="css/audio/pokemon__theme.mp3" 
+        >Your browser does not support</audio>
+            <ul>
+                <li><a>About</a></li>
+                <li><a>Home</a></li>
+                <li><a>Orgins</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="pokemon" class="pokemon">
+        <main>
+            <section class="choose__pokemon">
+                <div class="container pkm__df">
+                    <div class="pokemon__wrap">
+                        <div class="div">
+                        <h2>ABOUT</h2>
+                        <p>This app was designed to showcase some of the characteristics of any pokemon you desire.Type in your favorite pokemon in the searchbar and click the play button!!!
+
+                        </p>
+                    </div>
+                        
+                    </div>
+                    <div id="pkm_C" class="pkn__container">
+            <div class ="pfig">
+                <h2>Name: Eevee</h2>
+                
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/133.png" alt="">
+                
+                <div id="stats" class="stats">
+                    <div id ="weight" class="weight">
+                        <h4 class="w">1.2kg</h4>
+                        <p>WEIGHT</p>
+                    </div>
+                    <div class="type">
+                        <h4>Normal</h4>
+                        <p>TYPE</p>
+                    </div>
+                    <div class="height">
+                        <h4 class="height">0.74</h4>
+                        <p>HEIGHT</p>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <form class="inp__btn--container">
+                    <input type="text"  id="uinp" placeholder=" Enter Pokemon Name Here">
+                    <button type ="submit" id="buttn" onclick ="return pokemon(), color()" href="btn"><img  src="css/images/pokeball2.png" alt="" class="pkm__but"></button>
+                </form>
+            </div>
+            
+            
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="pokemon__app">
+
+
+            </div>
+        </div>
+    </section>
+
+    </main> 
+</div>
+                
+<footer>
+    <div class="container">
+        <p>&copy;Pokemon</p>
+        <p>I do not own any rights and am not affiliated with the Pokemon franchise.</p>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+
+
+
+
+
+
+
+        <script src="app.js"></script> 
+</body>
+</html>
